@@ -92,4 +92,7 @@ values
         ('TI Financeira'),
         ('TI Telemarkenting');
 
+insert into funcionario (fkDepartamento, nomeFuncionario, usuario, email, senha, telefone, funcao, statusFuncionario, profileImgPath, acessoDashboard)
+values (3, '', '', '', '', '', '', '', null, 'sim');
+
 
