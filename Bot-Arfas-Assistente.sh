@@ -98,7 +98,7 @@ sudo docker build -t arfas-mysql .
 
 sudo docker images
 
-sudo docker run --name database-arfas -p 3306:3306 -d  arfas-mysq
+sudo docker run --name database-arfas -p 3306:3306 -d  arfas-mysql
 
 # Em caso de erro na porta 3306
 # sudo apt install net-tools
@@ -122,7 +122,6 @@ if [ -d jar-arfas-oversigth/ ]
 
         cd jar-arfas-oversigth/
 		git pull
-		clear
 
         echo "$(tput setaf 10)[Bot-Arfas-Assistente]:$(tput setaf 7) Aplicação atualizada para última versão com sucesso :D"
 
@@ -133,7 +132,7 @@ if [ -d jar-arfas-oversigth/ ]
 
         sleep 4
 		git clone https://github.com/Arfas-Monitoria/jar-arfas-oversigth.git
-		clear
+
 
         echo "$(tput setaf 10)[Bot-Arfas-Assistente]:$(tput setaf 7) A aplicação foi instalada com sucesso :D"
 
