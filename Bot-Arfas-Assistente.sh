@@ -92,15 +92,19 @@ echo "$(tput setaf 10)[Bot-Arfas-Assistente]:$(tput setaf 7) Agora vou realizar 
 sudo systemctl enable docker
 sudo systemctl start docker
 
-sudo docker pull mysql:5.7
+clear
+
+sudo docker build -t arfas-mysql .
 
 sudo docker images
 
-variable_name=$(sudo docker run -d -p 3306:3306 --name ConteinerBD -e "MYSQL_DATABASE=arfas" -e "MYSQL_ROOT_PASSWORD=urubu100" arfas)
+sudo docker run --name database-arfas -p 3306:3306 -d  arfas-mysq
 
-$variable_name
+# Em caso de erro na porta 3306
+# sudo apt install net-tools
+# sudo netstat -nlp | grep 3306
 
-sudo docker exec -it $variable_name mysql -u root -p
+sudo docker ps
 
 echo "$(tput setaf 10)[Bot-Arfas-Assistente]:$(tput setaf 7) Configurações realiazadas com sucesso :D"
 
