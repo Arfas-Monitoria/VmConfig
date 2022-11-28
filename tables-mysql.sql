@@ -93,6 +93,6 @@ values
         ('TI Telemarkenting');
 
 insert into funcionario (fkDepartamento, nomeFuncionario, usuario, email, senha, telefone, funcao, statusFuncionario, profileImgPath, acessoDashboard)
-values (3, 'heloisa brito', 'HELOB', 'helo@gmail.com', '144', '11964645679', 'analista', 'ativo', null, 'sim');
+values (2, 'caique carvalho', 'CAIQUE', 'helo@gmail.com', '244', '11967656875', 'analista', 'ativo', null, 'sim');
 
 
