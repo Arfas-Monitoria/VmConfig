@@ -94,6 +94,6 @@ values
 
 
 insert into funcionario (fkDepartamento, nomeFuncionario, usuario, email, senha, telefone, funcao, statusFuncionario, profileImgPath, acessoDashboard)
-values (2, 'caique carvalho', 'CAIQCAR', 'caique@gmail.com', '123', '11967656875', 'analista', 'ativo', null, 'sim');
+values (2, 'Yuri Martins', 'YURIMAR', 'yuri@gmail.com', '1190', '11967656875', 'analista', 'ativo', null, 'sim');
 
 
