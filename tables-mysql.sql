@@ -94,6 +94,12 @@ values
 
 
 insert into funcionario (fkDepartamento, nomeFuncionario, usuario, email, senha, telefone, funcao, statusFuncionario, profileImgPath, acessoDashboard)
-values (2, 'Mauricio Maxuel', 'MARIMA', 'mauricio@gmail.com', '123', '11965646575', 'analista', 'ativo', null, 'sim');
+values (2, 'Felipe Queiroz', 'FELIQUE', 'felipe@gmail.com', '123', '11960546075', 'analista', 'ativo', null, 'sim');
+
+insert into funcionario (fkDepartamento, nomeFuncionario, usuario, email, senha, telefone, funcao, statusFuncionario, profileImgPath, acessoDashboard)
+values (2, 'Heloisa Brito', 'HELOBRI', 'heloisa@gmail.com', '123', '11995866570', 'analista', 'ativo', null, 'sim');
+
+insert into funcionario (fkDepartamento, nomeFuncionario, usuario, email, senha, telefone, funcao, statusFuncionario, profileImgPath, acessoDashboard)
+values (2, 'Icaro Menezes', 'ICARO', 'icaro@gmail.com', '123', '11975643585', 'analista', 'ativo', null, 'sim');
 
 
